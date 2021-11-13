@@ -58,7 +58,8 @@ const Navbar = props => {
           display={{ base: 'none', md: 'flex' }}
           width={{ base: 'full', md: 'auto' }}
           alignItems="center"
-          flexGrow={1}
+            flexGrow={1}
+            
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
@@ -95,7 +96,7 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                   </NextLink>
-                  <NextLink href="" passHref>
+                  <NextLink href="https://github.com/iHector1/my-page.git" passHref>
                   <MenuItem as={Link}>Source</MenuItem>
                 </NextLink>
               </MenuList>
