@@ -11,7 +11,7 @@ const Work = () => {
                 Ricardo y Martin<Badge>2021</Badge>
             </Title>
             <P>
-            It&apos;s a web page that called an external api about &quot;Rick and Morty&quot;, the web page shows all characteres that appears on the serie and shows it&quot;s characteristics. You can search characters too.
+            It&apos;s a web page that called an external api about &quot;Rick and Morty&quot;, the web page shows all characteres that appears on the serie and shows it&apos;s characteristics. You can search characters too.
             </P>
             <List ml={4} my={4}>
                 <ListItem>
