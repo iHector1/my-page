@@ -66,7 +66,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/iHector1/My-page.git"
+            href="https://github.com/iHector1/my-page.git"
             path={path}
             display="inline-flex"
             alignItems="center"
