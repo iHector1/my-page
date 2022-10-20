@@ -1,6 +1,8 @@
 import NextLink from 'next/link'
-import { Link,Container,Heading,Box,Image
-    ,Button,List,ListItem,Icon, useColorModeValue} from "@chakra-ui/react";
+import {
+    Link, Container, Heading, Box, Image
+    , Button, List, ListItem, Icon, useColorModeValue
+} from "@chakra-ui/react";
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -8,7 +10,8 @@ import { BioSection, BioYear } from '../components/bio';
 import Layout from '../components/layouts/article';
 import {
     IoLogoInstagram,
-    IoLogoGithub
+    IoLogoGithub,
+    IoLogoLinkedin
 } from 'react-icons/io5'
 const Page = () => {
     return (
@@ -93,6 +96,17 @@ const Page = () => {
                                     leftIcon={<Icon as={IoLogoInstagram} />}
                                 >
                                     @ihector25
+                                </Button>
+                            </Link>
+                        </ListItem>
+                        <ListItem>
+                            <Link href="https://www.linkedin.com/in/hectorjosuegonzalez" target="_blank">
+                                <Button
+                                    variant="ghost"
+                                    colorScheme="teal"
+                                    leftIcon={<Icon as={IoLogoLinkedin} />}
+                                >
+                                    Héctor Josué González Cortés
                                 </Button>
                             </Link>
                         </ListItem>
