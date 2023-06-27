@@ -9,7 +9,7 @@ const Webside = ({ Component, pageProps, router }) => {
         <ChakraProvider theme={theme}>
             <Fonts />
             <Layout router={router}>
-                <AnimatePresence exitBeforeEnter initial={true}><Component {...pageProps} key={router.router} /></AnimatePresence>
+                <AnimatePresence mode='wait' initial={true}><Component {...pageProps} key={router.router} /></AnimatePresence>
 
             </Layout>
         </ChakraProvider>)

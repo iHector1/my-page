@@ -22,19 +22,19 @@ padding: 10px;
 const Logo = () => {
   return (
     <Link href="/">
-      <a>
+      <span>
         <LogoBox>
           <Mon width={60} height={60} alt="logo" />
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-            fontFamily="Varela Round, arial"
+            fontFamily="Red Hat Mono, arial"
             aling="center"
             ml={2}
           >
              Héctor González
           </Text>
         </LogoBox>
-      </a>
+      </span>
     </Link>
   )
 }
