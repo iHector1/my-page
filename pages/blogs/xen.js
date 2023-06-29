@@ -1,5 +1,5 @@
 import { Badge, List, ListItem } from "@chakra-ui/react";
-import { Title, Meta, subTitles } from '../../components/blogs'
+import { Title, Meta } from '../../components/blogs'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import { Heading } from '@chakra-ui/react'
@@ -42,12 +42,12 @@ const Post = () => {
             </Heading>
             <P >
 
-                Configure the default network architecture when creating the virtual machines. Uncomment (#) or add the following lines to the /etc/xen/xl.conf file:
+                Configure the default network architecture when creating the virtual machines. Uncomment or add the following lines to the /etc/xen/xl.conf file:
             </P>
             <Code ml={5} my={2} fontSize={16}>
                 <Text as="p">
-                    vif.default.script = "vif-bridge" <br></br>
-                    vif.default.bridge = "xenbr0"
+                    vif.default.script = &quot;vif-bridge&quot; <br></br>
+                    vif.default.bridge = &quot;xenbr0&quot;
                 </Text>
 
             </Code>
