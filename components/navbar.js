@@ -64,6 +64,9 @@ const Navbar = props => {
         >
           <LinkItem href="/works" path={path}>
             Works
+            </LinkItem>
+            <LinkItem href="/blogs" path={path}>
+            Blog
           </LinkItem>
           <LinkItem
             _target="_blank"
@@ -95,6 +98,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
+                  </NextLink>
+                  <NextLink href="/blogs" passHref>
+                  <MenuItem as={Link}>Blog</MenuItem>
                   </NextLink>
                   <NextLink href="https://github.com/iHector1/my-page.git" passHref>
                   <MenuItem as={Link}>Source</MenuItem>
