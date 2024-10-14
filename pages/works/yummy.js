@@ -28,7 +28,7 @@ const Work = () => {
           <span>NodeJS, Angular, Bootstrap, Firebase.</span>
         </ListItem>
             </List>
-            <WorkImage src="/images/worksyummy_1.png" alt="Yummy" />
+            <WorkImage src="/images/works/yummy_1.png" alt="Yummy" />
             <WorkImage src="/images/works/yummy_2.png" alt="Yummy"/>
         </Layout>
     )

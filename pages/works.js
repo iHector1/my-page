@@ -52,7 +52,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="taskcli" thumbnail={thumbTasckcli} title="M">
+          <WorkGridItem id="taskcli" thumbnail={thumbTasckcli} title="Taskcli">
             TaskCli is a terminal program that&apos;s solve user&apos;s
             administration task.
           </WorkGridItem>
