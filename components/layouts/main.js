@@ -10,7 +10,7 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Takuya's homepage" />
+        <meta name="description" content="Héctor's Homepage" />
         <meta name="author" content="Héctor González" />
         <meta name="author" content="iHector" />
         <link rel="cala" href="cala.png" />
