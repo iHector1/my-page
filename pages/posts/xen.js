@@ -1,11 +1,10 @@
 import { Badge, List, ListItem } from "@chakra-ui/react";
-import { Title, Meta } from '../../components/blogs'
-import P from '../../components/paragraph'
-import Layout from '../../components/layouts/article'
 import { Heading } from '@chakra-ui/react'
 import { Code } from '@chakra-ui/react'
 import { Text } from "@chakra-ui/react";
-
+import { Title,Meta } from '../../components/wallpaper'
+import P from '../../components/paragraph'
+import Layout from '../../components/layouts/article'
 const Post = () => {
     return (
         <Layout title="Xen">

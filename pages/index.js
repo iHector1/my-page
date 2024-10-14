@@ -62,13 +62,21 @@ const Page = () => {
                         <BioYear>2001</BioYear>
                         Born in Guadalajara Jalisco.
                     </BioSection>
-                    <BioSection >
+                    <BioSection>
                         <BioYear>2020</BioYear>
                         Finished my career in software development at Centro de Enseñanza Tecnica Industrial
                     </BioSection>
-                    <BioSection >
+                    <BioSection>
                         <BioYear>2021</BioYear>
-                        Started my career Software Enginner at Centro de Enseñanza Tecnica Industrial
+                        Started my career Software Engineer at Centro de Enseñanza Tecnica Industrial
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2023</BioYear>
+                        Started as Technical Support at Centro de Enseñanza Tecnica Industrial
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2024</BioYear>
+                        Started as Software Developer at Centro de Enseñanza Tecnica Industrial
                     </BioSection>
                 </Section>
 

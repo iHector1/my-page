@@ -1,6 +1,6 @@
 import { Badge, Link, List, ListItem } from "@chakra-ui/react";
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/works'
+import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -16,7 +16,7 @@ const Work = () => {
             <List ml={4} my={4}>
                 <ListItem>
                     <Meta>Website</Meta>
-                    <Link href="https://ricardo-y-martin-app.web.app/character-details/7">https://ricardo-y-martin-app.web.app/home<ExternalLinkIcon mx="2px" /></Link>
+                    <Link href="https://ricardo-y-martin-app.web.app">https://ricardo-y-martin-app.web.app/home<ExternalLinkIcon mx="2px" /></Link>
                 </ListItem>
                 <ListItem>
           <Meta>Platform</Meta>
@@ -27,8 +27,8 @@ const Work = () => {
           <span>NodeJS, Angular, Bootstrap.</span>
         </ListItem>
             </List>
-            <WorkImage src="/images/rick_1.png" alt="Yummy" />
-            <WorkImage src="/images/rick_2.PNG" alt="Yummy"/>
+            <WorkImage src="/images/works/rick_1.png" alt="Rick" />
+            <WorkImage src="/images/works/rick_2.PNG" alt="Rick"/>
         </Layout>
     )
 }
