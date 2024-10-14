@@ -1,5 +1,5 @@
 import { Badge, List, ListItem, Box } from "@chakra-ui/react";
-import { Title, Meta } from '../../components/works'
+import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
