@@ -38,7 +38,7 @@ const Page = () => {
                             borderStyle="solid"
                             maxWidth="100px"
                             display="inline-block"
-                            borderRadius="full" src="/images/me.jpg" />
+                            borderRadius="full" src="/images/me.jpg" alt="Foto de perfil de Héctor González" />
                     </Box>
                 </Box>
                 <Section delay={0.1}>
