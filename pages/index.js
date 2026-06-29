@@ -29,7 +29,7 @@ const Page = () => {
                         <Heading as="h2" variant="page-title">
                             Héctor González
                         </Heading>
-                        <p>Software Engineer Incoming | Centro de Enseñanza  Técnica Industrial Student
+                        <p>Software Engineer | Backend Developer
                         </p>
                     </Box>
                     <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} aling="center">
