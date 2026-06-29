@@ -46,7 +46,7 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Hello this is Hector, I am a programmer and a Software Engineer Incoming, what I like the most is programming to see something created from scratch and feel a satisfaction at the moment of finish it, it can be said that each of my projects carries something of me.
+                        Hello this is Hector, I am a programmer and a Software Engineer, what I like the most is programming to see something created from scratch and feel a satisfaction at the moment of finish it, it can be said that each of my projects carries something of me.
                     </Paragraph>
                     <Box align="center" my={4}>
                         <NextLink href="/works">
@@ -77,6 +77,10 @@ const Page = () => {
                     <BioSection>
                         <BioYear>2024</BioYear>
                         Started as Software Developer at Centro de Enseñanza Tecnica Industrial
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2025</BioYear>
+                        Finished my career Software Engineer at Centro de Enseñanza Tecnica Industrial
                     </BioSection>
                 </Section>
 
